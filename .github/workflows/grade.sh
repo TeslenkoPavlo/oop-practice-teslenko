@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Отримуємо статус тестів із середовища (expected: "success" або "failure")
 TESTS_STATUS=${TESTS_STATUS:-failure}
 
 if [ "$TESTS_STATUS" = "success" ]; then
@@ -9,11 +8,8 @@ else
     grade=1
 fi
 
-# Виводимо оцінку
 echo "Оцінка: $grade/5"
 
-# Створюємо анотацію з оцінкою
 echo "::notice title=Оцінка::Оцінка: $grade/5"
 
-# Записуємо оцінку у GitHub Actions output, щоб її можна було використати в подальших кроках
 echo "grade=$grade" >> "$GITHUB_OUTPUT"
