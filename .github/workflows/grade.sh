@@ -1,16 +1,9 @@
 #!/bin/bash
-# Цей скрипт – приклад обчислення оцінки за 5‑балльною системою.
-# Для демонстрації використовуємо змінні середовища (ви можете інтегрувати аналіз XML‑звітів, якщо потрібно).
+# Отримуємо статус тестів із середовища (expected values: "success" або "failure")
+TESTS_STATUS=${TESTS_STATUS:-failure}
+CHECKSTYLE_WARNINGS=${CHECKSTYLE_WARNINGS:-0}
 
-# Припустимо, що тести пройшли – у реальному проєкті ви можете зчитувати результат із файлів.
-# Змінна TESTS_STATUS має значення "pass" або "fail".
-# Змінна CHECKSTYLE_WARNINGS містить кількість попереджень (ви можете отримати її шляхом парсингу Checkstyle звіту).
-
-# Для демонстрації встановимо значення за замовчуванням:
-TESTS_STATUS=${TESTS_STATUS:-pass}
-CHECKSTYLE_WARNINGS=${CHECKSTYLE_WARNINGS:-3}
-
-if [ "$TESTS_STATUS" = "pass" ]; then
+if [ "$TESTS_STATUS" = "success" ]; then
   if [ "$CHECKSTYLE_WARNINGS" -eq 0 ]; then
     grade=5
   elif [ "$CHECKSTYLE_WARNINGS" -le 5 ]; then
@@ -25,5 +18,5 @@ else
 fi
 
 echo "Оцінка: $grade"
-# Для подальшого використання в інших кроках (наприклад, для коментарів у PR)
+# Записуємо оцінку у GitHub Actions output, щоб її можна було використати в наступних кроках
 echo "grade=$grade" >> "$GITHUB_OUTPUT"
