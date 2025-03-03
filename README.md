@@ -1,5 +1,6 @@
 
 # 🚀 Консольна програма для виводу аргументів командного рядка
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task-1-%2803.03.25%29&repo=941975572)
 
 ## 📋 Постановка задачі
 
