@@ -24,10 +24,23 @@ jobs:
       - name: Compile Java Code
         run: |
           mkdir -p out
-          # Компіляція файлів. Файли з package "src.test" збережуть свою структуру:
+          # Компільовуємо файли; оскільки в тестовому класі вказано package "src.test",
+          # класи будуть збережені з відповідною структурою каталогів.
           javac -d out src/domain/CommandLineArgsPrinter.java src/test/CommandLineArgsTester.java
 
       - name: Run Tests
+        id: run_tests
         run: |
-          # Оскільки клас знаходиться в пакеті "src.test", запускаємо його за повним ім'ям:
+          # Запускаємо тестовий клас, використовуючи повне ім'я
           java -cp out src.test.CommandLineArgsTester
+        continue-on-error: true
+
+      - name: Calculate Grade
+        id: grade
+        if: always()
+        env:
+          # Використовуємо outcome кроку run_tests ("success" або "failure")
+          TESTS_STATUS: ${{ steps.run_tests.outcome }}
+        run: |
+          chmod +x ./grade.sh
+          ./grade.sh
