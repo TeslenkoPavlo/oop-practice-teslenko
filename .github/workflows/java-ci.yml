@@ -1,0 +1,36 @@
+name: Java CI
+
+on:
+  push:
+    branches: [ "task-1-(03.03.25)" ]
+  pull_request:
+    branches: [ "task-1-(03.03.25)" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout репозиторію
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Compile Java Code
+        run: |
+          mkdir -p out
+          # Компіляція обох класів; якщо класи мають package declaration,
+          # вони збережуть структуру директорій у каталозі out
+          javac -d out src/domain/CommandLineArgsPrinter.java src/test/CommandLineArgsTester.java
+
+      - name: Run Tests
+        run: |
+          # Якщо клас CommandLineArgsTester знаходиться у пакеті test, використовуйте повне ім'я:
+          java -cp out test.CommandLineArgsTester
+          # Якщо ні – замініть на:
+          # java -cp out CommandLineArgsTester
