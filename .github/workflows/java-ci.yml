@@ -39,8 +39,8 @@ jobs:
         id: grade
         if: always()
         env:
-          # Використовуємо outcome кроку run_tests ("success" або "failure")
           TESTS_STATUS: ${{ steps.run_tests.outcome }}
         run: |
-          chmod +x ./grade.sh
-          ./grade.sh
+          chmod +x .github/workflows/grade.sh
+          .github/workflows/grade.sh
+
