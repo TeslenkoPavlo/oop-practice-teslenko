@@ -30,7 +30,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          # Якщо клас CommandLineArgsTester знаходиться у пакеті test, використовуйте повне ім'я:
-          java -cp out test.CommandLineArgsTester
-          # Якщо ні – замініть на:
-          # java -cp out CommandLineArgsTester
+           java -cp out CommandLineArgsTester
