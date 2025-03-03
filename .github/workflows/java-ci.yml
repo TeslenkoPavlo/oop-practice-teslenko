@@ -24,10 +24,10 @@ jobs:
       - name: Compile Java Code
         run: |
           mkdir -p out
-          # Компіляція обох класів; якщо класи мають package declaration,
-          # вони збережуть структуру директорій у каталозі out
+          # Компіляція файлів. Файли з package "src.test" збережуть свою структуру:
           javac -d out src/domain/CommandLineArgsPrinter.java src/test/CommandLineArgsTester.java
 
       - name: Run Tests
         run: |
-           java -cp out CommandLineArgsTester
+          # Оскільки клас знаходиться в пакеті "src.test", запускаємо його за повним ім'ям:
+          java -cp out src.test.CommandLineArgsTester
