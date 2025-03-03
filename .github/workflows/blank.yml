@@ -2,9 +2,9 @@ name: CI & Автооцінювання
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "task-1-(03.03.25)" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "task-1-(03.03.25)" ]
   workflow_dispatch:
 
 jobs:
