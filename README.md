@@ -153,7 +153,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>📊 <b>1️⃣ Модуль srcFirst</b> - Базова серіалізація об'єктів</summary>
 
-![Результати модуля srcFirst](https://i.imgur.com/MfbAE4X.png)
+![Результати модуля srcFirst](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo1.png?raw=true)
 
 *👆 Демонстрація роботи з об'єктами Exercise та їх серіалізації/десеріалізації.*
 </details>
@@ -161,7 +161,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>🔐 <b>2️⃣ Модуль srcSecond</b> - Робота з transient полями</summary>
 
-![Результати модуля srcSecond](https://i.imgur.com/LK9xzvP.png)
+![Результати модуля srcSecond](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo2.png?raw=true)
 
 *👆 Ілюстрація впливу ключового слова transient на серіалізацію полів.*
 </details>
@@ -169,7 +169,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>📈 <b>3️⃣ Модуль srcThird</b> - Аналіз масивів з серіалізацією</summary>
 
-![Результати модуля srcThird](https://i.imgur.com/4NAzWrP.png)
+![Результати модуля srcThird](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo3.png?raw=true)
 
 *👆 Наочне представлення роботи з масивами та результатів їх обробки.*
 </details>
@@ -177,7 +177,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>🧮 <b>4️⃣ Модуль srcIndividual</b> - Перетворення систем числення</summary>
 
-![Результати модуля srcIndividual](https://i.imgur.com/Y95DwVc.png)
+![Результати модуля srcIndividual](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo4.png?raw=true)
 
 *👆 Візуалізація результатів перетворення чисел між різними системами числення.*
 </details>
