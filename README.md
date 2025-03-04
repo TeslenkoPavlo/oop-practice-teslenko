@@ -143,7 +143,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details open>
 <summary>📊 <b>Інтерактивне меню вибору</b></summary>
 
-![Головне меню](https://i.imgur.com/fGV8zXX.png)
+![Головне меню](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo5.png?raw=true)
 
 *👆 Користувацький інтерфейс з кольоровим меню для вибору різних модулів програми.*
 </details>
