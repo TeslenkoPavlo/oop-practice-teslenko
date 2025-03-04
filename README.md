@@ -153,7 +153,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>📊 <b>1️⃣ Модуль srcFirst</b> - Базова серіалізація об'єктів</summary>
 
-![Результати модуля srcFirst](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo1.png?raw=true)
+![Результати модуля srcFirst](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo2.png?raw=true)
 
 *👆 Демонстрація роботи з об'єктами Exercise та їх серіалізації/десеріалізації.*
 </details>
@@ -161,7 +161,7 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 <details>
 <summary>🔐 <b>2️⃣ Модуль srcSecond</b> - Робота з transient полями</summary>
 
-![Результати модуля srcSecond](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo2.png?raw=true)
+![Результати модуля srcSecond](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-2-classes-and-objects-(04.03.25)/img/photo1.png?raw=true)
 
 *👆 Ілюстрація впливу ключового слова transient на серіалізацію полів.*
 </details>
