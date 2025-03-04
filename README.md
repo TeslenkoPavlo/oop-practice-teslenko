@@ -1,5 +1,6 @@
 
 # 🚀 ООП практика - Тесленко Павло
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task-2-classes-and-objects-%2804.03.25%29&repo=941975572)
 
 ## 📝 Загальна інформація
 - **Студент**: Тесленко Павло
