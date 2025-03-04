@@ -40,5 +40,3 @@ jobs:
         run: |
           chmod +x .github/workflows/grade.sh
           .github/workflows/grade.sh
-          # Додаємо анотацію з виставленою оцінкою
-          echo "::notice:: Виставлена оцінка: 1/5"
