@@ -23,8 +23,8 @@ jobs:
 
       - name: Compile Java Code
         run: |
-          mkdir -p out
-          javac -d out src/main.java
+            mkdir -p out
+              javac -d out $(find . -name "*.java")
 
       - name: Run Tests
         id: run_tests
