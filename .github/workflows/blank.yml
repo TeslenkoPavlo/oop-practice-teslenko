@@ -26,4 +26,4 @@ jobs:
 
       - name: Assign Grade 5/5
         if: always()
-        run: echo "::notice title=Оцінка::Оцінка: 5/5"
+        run: echo "::notice title=Оцінка::Оцінка%3A 5/5"
