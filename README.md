@@ -25,6 +25,6 @@
 
 ### ✨ Завдання 3 - Спадкування (05.03.25)
 
-[Посилання на проєкт](https://github.com/TeslenkoPavlo/oop-practice-teslenko/tree/task-2-classes-and-objects-(04.03.25))
+[Посилання на проєкт](https://github.com/TeslenkoPavlo/oop-practice-teslenko/tree/task-3-inheritance-(05.03.25))
 
 > 🔍 У цьому завданні використовувався шаблон проектування Factory Method.
