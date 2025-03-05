@@ -35,7 +35,8 @@ jobs:
       - name: Run Tests
         id: run_tests
         run: |
-          java -cp "out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MainTest
+          # Замість MainTest використовуйте повну назву класу, наприклад, якщо клас у пакеті test:
+          java -cp "out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore test.MainTest
         continue-on-error: true
 
       - name: Calculate Grade
