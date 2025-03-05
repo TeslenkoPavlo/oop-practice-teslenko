@@ -46,22 +46,22 @@ src/
 ## 📱 Приклад використання програми
 
 ### 🚀 Запуск програми
-![Запуск програми](#)
+![Запуск програми](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo1.png?raw=true)
 
 ### 👁️ Команда 'п' (показати)
-![Команда показати](#)
+![Команда показати](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo2.png?raw=true)
 
 ### 🔄 Команда 'г' (генерувати)
-![Команда генерувати](#)
+![Команда генерувати](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo3.png?raw=true)
 
 ### 💾 Команда 'з' (зберегти)
-![Команда зберегти](#)
+![Команда зберегти](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo4.png?raw=true)
 
 ### 📤 Команда 'о' (оновити)
-![Команда відновити](#)
+![Команда відновити](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo5.png?raw=true)
 
 ### 🚪 Команда 'в' (вихід)
-![Команда вихід](#)
+![Команда вихід](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-3-inheritance-(05.03.25)/img/photo6.png?raw=true)
 
 ## 🔍 Принципи ООП в проекті
 
