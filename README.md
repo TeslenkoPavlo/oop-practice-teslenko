@@ -133,7 +133,7 @@ ICommand (Інтерфейс)
 <div align="center">
 
 ### 📋 Головне меню
-![Головне меню](attached_assets/main_menu.png)
+![Головне меню](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo1.png?raw=true)
 *Консольний інтерфейс із кольоровим виділенням доступних команд*
 
 </div>
@@ -141,7 +141,7 @@ ICommand (Інтерфейс)
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
     <h3>🎲 Генерація даних</h3>
-    <img src="attached_assets/generate.png" alt="Генерація даних" style="width: 100%;">
+    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo2.png?raw=true" alt="Генерація даних" style="width: 100%;">
     <em>Створення набору випадкових координат (x, y)</em>
   </div>
   <div style="flex: 1; margin-left: 10px;">
