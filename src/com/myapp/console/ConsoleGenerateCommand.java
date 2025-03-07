@@ -6,6 +6,23 @@ import com.myapp.viewimpl.ViewableTable;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Команда генерації даних.
+ * Реалізує шаблон Command.
+ * 
+ * Завдання 1: Реалізувати можливість скасування (undo) операцій (команд).
+ * Цей клас є конкретною реалізацією команди для генерації даних. Генерація 
+ * нових даних є операцією, яку можна скасувати шляхом відновлення попереднього
+ * стану з файлу (через ConsoleSaveCommand та ConsoleRestoreCommand).
+ * 
+ * Завдання 4: Забезпечити діалоговий інтерфейс із користувачем.
+ * Клас реалізує інтерфейс IConsoleCommand, забезпечуючи взаємодію через
+ * символ гарячої клавіші та виведення повідомлення про результат генерації даних.
+ * 
+ * @author Тесленко Павло
+ * @version 1.0
+ */
+
 public class ConsoleGenerateCommand implements IConsoleCommand {
     private ViewableTable viewableTable;
     
