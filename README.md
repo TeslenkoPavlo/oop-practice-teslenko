@@ -134,7 +134,6 @@ ICommand (Інтерфейс)
 
 ### 📋 Головне меню
 ![Головне меню](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo1.png?raw=true)
-
 *Консольний інтерфейс із кольоровим виділенням доступних команд*
 
 </div>
