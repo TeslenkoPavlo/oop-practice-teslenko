@@ -5,6 +5,24 @@ import com.myapp.viewimpl.ViewableTable;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
+/**
+ * Команда збереження даних у файл.
+ * Реалізує шаблон Command.
+ * 
+ * Завдання 1: Реалізувати можливість скасування (undo) операцій (команд).
+ * Цей клас є ключовою частиною механізму скасування операцій, оскільки
+ * він серіалізує поточний стан об'єктів у файл, що дозволяє пізніше
+ * відновити цей стан за допомогою ConsoleRestoreCommand, ефективно
+ * реалізуючи операцію undo.
+ * 
+ * Завдання 4: Забезпечити діалоговий інтерфейс із користувачем.
+ * Клас реалізує інтерфейс IConsoleCommand, забезпечуючи взаємодію через
+ * консоль та надаючи інформативні повідомлення про результат збереження.
+ * 
+ * @author Тесленко Павло
+ * @version 1.0
+ */
+
 public class ConsoleSaveCommand implements IConsoleCommand {
     private ViewableTable viewableTable;
 
