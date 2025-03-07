@@ -154,12 +154,12 @@ ICommand (Інтерфейс)
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <div style="flex: 1; margin-right: 10px;">
     <h3>🔍 Перегляд після зміни</h3>
-    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo4.png?raw=true" alt="Перегляд після зміни" style="width: 100%;">
+    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo5.png?raw=true" alt="Перегляд після зміни" style="width: 100%;">
     <em>Можливість переглянути дані після їх модифікації</em>
   </div>
   <div style="flex: 1; margin-left: 10px;">
     <h3>💾 Збереження стану</h3>
-    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo5.png?raw=true" alt="Збереження стану" style="width: 100%;">
+    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo6.png?raw=true" alt="Збереження стану" style="width: 100%;">
     <em>Серіалізація поточного стану для подальшого відновлення</em>
   </div>
 </div>
@@ -167,12 +167,12 @@ ICommand (Інтерфейс)
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <div style="flex: 1; margin-right: 10px;">
     <h3>📂 Відновлення стану</h3>
-    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo6.png?raw=true" alt="Відновлення стану" style="width: 100%;">
+    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo7.png?raw=true" alt="Відновлення стану" style="width: 100%;">
     <em>Реалізація undo через відновлення збереженого стану</em>
   </div>
   <div style="flex: 1; margin-left: 10px;">
     <h3>🚪 Вихід після відновлення</h3>
-    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo7.png?raw=true" alt="Вихід після відновлення" style="width: 100%;">
+    <img src="https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo8.png?raw=true" alt="Вихід після відновлення" style="width: 100%;">
     <em>Пропозиція завершити роботу після відновлення даних</em>
   </div>
 </div>
@@ -187,7 +187,7 @@ ICommand (Інтерфейс)
   
 </div>
 
-![Тестування](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo7.png?raw=true)
+![Тестування](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-5-processing-of-collections-(07.03.25)/img/photo9.png?raw=true)
 *Результати автоматизованого тестування функціональності програми*
 
 <details>
