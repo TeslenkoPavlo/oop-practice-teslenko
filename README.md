@@ -119,5 +119,10 @@ public void testComputationResults() {
 ---
 
 <div align="center">
-  <p>💻 Розроблено для ООП практики, 2025</p>
+  
+  *Розроблено з використанням шаблонів проектування та принципів ООП*
+  
+  ![Stars](https://img.shields.io/badge/⭐⭐⭐⭐⭐-5%20з%205-yellow?style=flat-square)
+  ![License](https://img.shields.io/badge/Ліцензія-MIT-blue?style=flat-square)
+  
 </div>
