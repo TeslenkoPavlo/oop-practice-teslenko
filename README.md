@@ -188,3 +188,14 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 > **Тесленко Павло** ✨
 
 ![Роздільник](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+---
+
+<div align="center">
+  
+  *Розроблено з використанням шаблонів проектування та принципів ООП*
+  
+  ![Stars](https://img.shields.io/badge/⭐⭐⭐⭐⭐-5%20з%205-yellow?style=flat-square)
+  ![License](https://img.shields.io/badge/Ліцензія-MIT-blue?style=flat-square)
+  
+</div>
