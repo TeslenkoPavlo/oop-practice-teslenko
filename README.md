@@ -189,8 +189,6 @@ solver.saveExerciseToFile("mydata.ser"); // 💾 Серіалізація
 
 ![Роздільник](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
----
-
 <div align="center">
   
   *Розроблено з використанням шаблонів проектування та принципів ООП*
