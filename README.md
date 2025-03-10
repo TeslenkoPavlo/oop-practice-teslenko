@@ -1,5 +1,5 @@
 
-🚀 ParallelDataProcessor — Двовимірний аналіз даних
+# 🚀 ParallelDataProcessor — Двовимірний аналіз даних
 
 ## 📝 Постановка задачі
 
