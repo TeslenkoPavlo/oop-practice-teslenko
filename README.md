@@ -103,25 +103,25 @@ graph TD
 ## 📸 Скріншоти виконання
 
 ### 📋 Головне меню
-![Головне меню](https://example.com/main_menu_screenshot.png)
+![Головне меню](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo1.png?raw=true)
 
 ### 👁️ Переглянути дані
-![Перегляд даних](https://example.com/view_data_screenshot.png)
+![Перегляд даних](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo2.png?raw=true)
 
 ### 🔄 Генерувати нові дані
-![Генерація даних](https://example.com/generate_data_screenshot.png)
+![Генерація даних](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo3.png?raw=true)
 
 ### 📝 Змінити значення Y
-![Зміна значень](https://example.com/change_y_screenshot.png)
+![Зміна значень](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo4.png?raw=true)
 
 ### 📊 Аналізувати дані
-![Аналіз даних](https://example.com/analyze_data_screenshot.png)
+![Аналіз даних](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo5.png?raw=true)
 
 ### 🚪 Вихід - завершити програму
-![Вихід](https://example.com/exit_screenshot.png)
+![Вихід](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo6.png?raw=true)
 
 ## 🧪 Виконання тесту
-![Виконання тесту](https://example.com/test_execution_screenshot.png)
+![Виконання тесту](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-6-parallel-execution-(10.03.25)/img/photo7.png?raw=true)
 
 ## 🌟 Шаблони проектування
 
