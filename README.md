@@ -1,5 +1,6 @@
 
 # 🚀 ParallelDataProcessor — Двовимірний аналіз даних
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task-6-parallel-execution-(10.03.25)&repo=941975572)
 
 ## 📝 Постановка задачі
 
