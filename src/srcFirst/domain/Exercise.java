@@ -1,34 +1,33 @@
-
 package srcFirst.domain;
 
 import java.io.Serializable;
 
 /**
  * Клас Exercise представляє завдання з двома параметрами та результатом обчислення.
- * 
- * <p><strong>Серіалізація:</strong> Цей клас реалізує інтерфейс {@link Serializable}, 
+ *
+ * <p><strong>Серіалізація:</strong> Цей клас реалізує інтерфейс {@link Serializable},
  * що дозволяє зберігати стан об'єктів цього класу (параметри та результати обчислень)
- * у байтовий потік для подальшого відновлення. Клас відповідає за зберігання даних
- * та результатів обчислень, які можуть бути серіалізовані та десеріалізовані.</p>
- * 
+ * у байтовий потік для подальшого відновлення.</p>
+ *
  * <p>Поля {@code firstParameter}, {@code secondParameter} та {@code calculationResult}
  * зберігають параметри та результат обчислення і серіалізуються разом з об'єктом.</p>
- * 
+ *
  * @see java.io.Serializable
  */
 public class Exercise implements Serializable {
-    /** 
+    /**
      * Ідентифікатор версії серіалізованого класу (SerialVersionUID).
-     * Необхідний для забезпечення сумісності серіалізованих даних між різними версіями класу.
+     * Необхідний для забезпечення сумісності серіалізованих даних
+     * між різними версіями класу.
      */
     private static final long serialVersionUID = 1L;
 
     /** Перший параметр для обчислення */
     private double firstParameter;
-    
+
     /** Другий параметр для обчислення */
     private double secondParameter;
-    
+
     /** Результат обчислення, який зберігається разом з параметрами */
     private double calculationResult;
 
@@ -45,8 +44,8 @@ public class Exercise implements Serializable {
     /**
      * Конструктор з параметрами.
      * Ініціалізує об'єкт із заданими параметрами та нульовим результатом.
-     * 
-     * @param firstParameter перший параметр
+     *
+     * @param firstParameter  перший параметр
      * @param secondParameter другий параметр
      */
     public Exercise(double firstParameter, double secondParameter) {
@@ -57,7 +56,7 @@ public class Exercise implements Serializable {
 
     /**
      * Повертає перший параметр.
-     * 
+     *
      * @return перший параметр
      */
     public double getFirstParameter() {
@@ -66,7 +65,7 @@ public class Exercise implements Serializable {
 
     /**
      * Встановлює перший параметр.
-     * 
+     *
      * @param firstParameter новий перший параметр
      */
     public void setFirstParameter(double firstParameter) {
@@ -75,7 +74,7 @@ public class Exercise implements Serializable {
 
     /**
      * Повертає другий параметр.
-     * 
+     *
      * @return другий параметр
      */
     public double getSecondParameter() {
@@ -84,7 +83,7 @@ public class Exercise implements Serializable {
 
     /**
      * Встановлює другий параметр.
-     * 
+     *
      * @param secondParameter новий другий параметр
      */
     public void setSecondParameter(double secondParameter) {
@@ -93,8 +92,7 @@ public class Exercise implements Serializable {
 
     /**
      * Повертає результат обчислення, який зберігається в об'єкті.
-     * Цей результат також серіалізується разом з іншими полями.
-     * 
+     *
      * @return результат обчислення
      */
     public double getCalculationResult() {
@@ -103,7 +101,7 @@ public class Exercise implements Serializable {
 
     /**
      * Встановлює результат обчислення.
-     * 
+     *
      * @param calculationResult новий результат обчислення
      */
     public void setCalculationResult(double calculationResult) {
@@ -112,19 +110,18 @@ public class Exercise implements Serializable {
 
     /**
      * Метод для обчислення результату за формулою (сума квадратів параметрів).
-     * Результат зберігається в полі calculationResult для подальшої серіалізації.
-     * 
+     * Результат зберігається в полі calculationResult.
+     *
      * @return результат обчислення
      */
     public double calculateResult() {
-        // Обчислення суми квадратів: firstParameter^2 + secondParameter^2
         calculationResult = Math.pow(firstParameter, 2) + Math.pow(secondParameter, 2);
         return calculationResult;
     }
 
     /**
      * Повертає рядкове представлення об'єкта Exercise.
-     * 
+     *
      * @return рядок, що містить інформацію про параметри та результат
      */
     @Override
