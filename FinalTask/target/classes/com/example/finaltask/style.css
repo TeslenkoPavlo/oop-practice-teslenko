@@ -1,0 +1,61 @@
+/* Загальний фон для всього вікна */
+.root {
+    -fx-background-image: url("background.jpeg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* ТІЛЬКИ НАПІВПРОЗОРИЙ ФОН ДЛЯ TABLEVIEW */
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-insets: 0;
+    -fx-background-radius: 5;
+}
+
+/* Прибрано додаткове форматування клітинок таблиці */
+
+/* Стиль для ComboBox */
+.combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 5;
+    -fx-padding: 4 8 4 8;
+
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+
+    -fx-text-fill: #333333;
+    -fx-prompt-text-fill: #999999;
+}
+
+/* Стиль для кнопки */
+.button {
+    -fx-background-radius: 5;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc, #e9e9e9),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%, #eaeaea 100%);
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.2) , 2, 0.0 , 0 , 1 );
+    -fx-padding: 6 12 6 12;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(#e9e9e9, #cccccc),
+            linear-gradient(#f2f2f2, #dddddd),
+            linear-gradient(#cccccc 0%, #e6e6e6 50%, #d9d9d9 100%);
+}
+
+.button:pressed {
+    -fx-background-color:
+            linear-gradient(#dcdcdc, #b0b0b0),
+            linear-gradient(#cccccc, #dddddd),
+            linear-gradient(#b0b0b0 0%, #cccccc 50%, #b0b0b0 100%);
+    -fx-effect: none;
+    -fx-text-fill: #333333;
+}
