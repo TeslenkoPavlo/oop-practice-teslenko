@@ -1,5 +1,6 @@
 
 # 📊 Додаток для Аналізу Даних на JavaFX
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task-7-javaFX-table-application-(11.03.25)&repo=941975572)
 
 > 🎯 Інтерактивний додаток для маніпуляції даними та статистичного аналізу з сучасним графічним інтерфейсом
 
