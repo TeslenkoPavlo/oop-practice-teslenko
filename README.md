@@ -127,35 +127,35 @@ mindmap
 ## 📸 Скріншоти Виконання Програми
 
 ### 0️⃣ Головне меню
-![Головне меню](screenshots/main_menu.png)
+![Головне меню](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo1.png?raw=true)
 *Основний екран з вибором дій*
 
 ### 1️⃣ Створити таблицю
-![Створити таблицю](screenshots/create_table.png)
+![Створити таблицю](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo2.png?raw=true)
 *Створення нової таблиці з 10 порожніми рядками*
 
 ### 2️⃣ Згенерувати значення
-![Згенерувати значення](screenshots/generate_values.png)
+![Згенерувати значення](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo3.png?raw=true)
 *Заповнення таблиці випадковими значеннями в діапазоні [-10;10]*
 
 ### 3️⃣ Зберегти значення
-![Зберегти значення](screenshots/save_values.png)
+![Зберегти значення](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo4.png?raw=true)
 *Збереження даних у файл data.ser*
 
 ### 4️⃣ Переглянути значення
-![Переглянути значення](screenshots/view_values.png)
+![Переглянути значення](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo5.png?raw=true)
 *Завантаження збережених даних з файлу*
 
 ### 5️⃣ Змінити значення стовпця Y
-![Змінити Y](screenshots/change_y.png)
+![Змінити Y](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo6.png?raw=true)
 *Модифікація значень стовпця Y випадковим коефіцієнтом [0.5;2.0]*
 
 ### 6️⃣ Показати статистику
-![Статистика](screenshots/show_stats.png)
+![Статистика](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo7.png?raw=true)
 *Відображення статистичних даних по таблиці*
 
 ### 7️⃣ Вихід
-![Вихід](screenshots/exit.png)
+![Вихід](https://github.com/TeslenkoPavlo/oop-practice-teslenko/blob/task-7-javaFX-table-application-(11.03.25)/img/photo8.png?raw=true)
 *Завершення роботи програми*
 
 ---
